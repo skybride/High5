@@ -1,0 +1,25 @@
+.container-fluid
+{
+    background-color: rgba(131, 15, 15, 0.829);
+}
+
+h2
+{
+    color: silver;
+    text-align: center;
+    font-variant: small-caps;
+}
+
+p
+{
+    color: lightgray;
+    text-align: center;
+}
+
+footer
+{
+    color: snow;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10%;
+}

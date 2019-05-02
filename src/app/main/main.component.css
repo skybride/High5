@@ -1,0 +1,36 @@
+
+
+img
+{
+    max-width: 100%;
+}
+
+.days
+{
+    color:gray;
+    text-align: center;
+}
+
+span
+{
+    color: snow;
+    text-decoration: none;
+}
+
+.specials
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn-danger
+{
+    margin-left: 47%;
+}
+
+.btn-info
+{
+    margin-left: 2%;
+}
+
+

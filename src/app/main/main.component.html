@@ -1,0 +1,215 @@
+<app-header></app-header>
+  
+    <button type="button" class="btn btn-danger"><i class='fas fa-phone'></i></button>
+    <button type="button" class="btn btn-info"><i class='fas fa-map-marker-alt'></i></button>
+
+<hr>
+  <img src="/assets/images/draft.jpg">
+<hr>
+
+
+  <div class="container" class="black">
+      <p class="specials">
+          <ngb-alert>
+            <b>power hour</b> every day at 6pm!
+          </ngb-alert>
+        </p>
+  </div>  
+
+  <div class="container" class="black">
+      <ngb-carousel>
+        <ng-template ngbSlide>
+          <img [src]="image">
+          <div class="carousel-caption">
+          </div>
+        </ng-template>
+        <ng-template ngbSlide>
+          <img [src]="image2">
+        </ng-template>
+        <ng-template ngbSlide>
+          <img [src]="image3">
+        </ng-template>
+      </ngb-carousel>
+  </div>
+
+  <hr>
+
+<div class="container" class="days">
+  <ngb-accordion  #acc="ngbAccordion" activeIds="ngb-panel">
+    <ngb-panel>
+      <ng-template ngbPanelTitle>
+        <span>&#9733; <b>Daily Specials</b> &#9733;</span>
+      </ng-template>
+      <ng-template ngbPanelContent>
+          <img src="/assets/images/wings.jpg">
+        <ngb-accordion #acc="ngbAccordion" activeIds="ngb-panel">
+            <ngb-panel>
+              <ng-template ngbPanelTitle>
+                <span><b>Monday</b></span>
+              </ng-template>
+              <ng-template ngbPanelContent class="background">
+                16oz Domestic Draught $4.50
+                (Canadian, Coors Light & High Fives Brew)
+                Wings $8.00 per lbs
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel>
+              <ng-template ngbPanelTitle>
+                <span><b>Tuesday</b></span>
+              </ng-template>
+              <ng-template ngbPanelContent>
+                Bar Rail $4.50
+                Burgers 25% off
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel>
+              <ng-template ngbPanelTitle>
+                <span><b>Wednesday</b></span>
+              </ng-template>
+              <ng-template ngbPanelContent>
+                Domestic Bottles $4.50
+                Pizza 25% off
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel>
+              <ng-template ngbPanelTitle>
+                <span><b>Thursday</b></span>
+              </ng-template>
+              <ng-template ngbPanelContent>
+                16oz Premium Draught $5.50<br>
+                6oz House Wine $5.50
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel>
+              <ng-template ngbPanelTitle>
+                <span><b>Friday</b></span>
+              </ng-template>
+              <ng-template ngbPanelContent>
+                20oz Canadian, Coors Light & High Fives Brew $5.50
+                Canadian, Coors Light King Cans $5.50
+                9oz House Wine $7.50
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel>
+              <ng-template ngbPanelTitle>
+                <span><b>Saturday</b></span>
+              </ng-template>
+              <ng-template ngbPanelContent>
+                6oz House Wine, Shooters, 20oz
+                Canadian, Coors Light & High Fives Brew
+                & Bud $5.50
+              </ng-template>
+            </ngb-panel>
+            <ngb-panel>
+              <ng-template ngbPanelTitle>
+                <span><b>Sunday</b></span>
+              </ng-template>
+              <ng-template ngbPanelContent>
+                Caesars & Tallboys $5.50,<br> Cheese Nachos $10
+              </ng-template>
+            </ngb-panel>
+        </ngb-accordion>
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+      <ng-template ngbPanelTitle>
+        <span><b>Food Menu</b></span>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        <img src="/assets/images/nachos.jpg">
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+      <ng-template ngbPanelTitle>
+        <span><b>Drinks Menu</b></span>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        <img src="/assets/images/Bar3.jpg">
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+      <ng-template ngbPanelTitle>
+        <span><b>Catering</b></span>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        High Fives also provides catering services and with being attached to the Best Western Hotel, are able to access the use of conference/banquet facilities for larger groups and special events.
+        Please contact us for more details and come check us out!
+      </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
+</div>
+<hr>
+<img src="/assets/images/chalkboard.jpg">
+
+<app-footer></app-footer>
+
+<!-- <div class="container" class="days">
+  <ngb-accordion  #acc="ngbAccordion" activeIds="ngb-panel-0">
+    <ngb-panel>
+      <ng-template ngbPanelTitle>
+        <span>&#9733; <b>Monday</b> &#9733;</span>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        16oz Domestic Draught $4.50
+        (Canadian, Coors Light & High Fives Brew)
+        Wings $8.00 per lbs
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+      <ng-template ngbPanelTitle>
+        <span>&#9733; <b>Tuesday</b> &#9733;</span>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        Bar Rail $4.50
+        Burgers 25% off
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+      <ng-template ngbPanelTitle>
+        <span>&#9733; <b>Wednesday</b> &#9733;</span>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        Domestic Bottles $4.50
+        Pizza 25% off
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+      <ng-template ngbPanelTitle>
+        <span>&#9733; <b>Thursday</b> &#9733;</span>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        16oz Premium Draught $5.50<br>
+        6oz House Wine $5.50
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+      <ng-template ngbPanelTitle>
+        <span>&#9733; <b>Friday</b> &#9733;</span>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        20oz Canadian, Coors Light & High Fives Brew $5.50
+        Canadian, Coors Light King Cans $5.50
+        9oz House Wine $7.50
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+      <ng-template ngbPanelTitle>
+        <span>&#9733; <b>Saturday</b> &#9733;</span>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        6oz House Wine, Shooters, 20oz
+        Canadian, Coors Light & High Fives Brew
+        & Bud $5.50
+      </ng-template>
+    </ngb-panel>
+    <ngb-panel>
+      <ng-template ngbPanelTitle>
+        <span>&#9733; <b>Sunday</b> &#9733;</span>
+      </ng-template>
+      <ng-template ngbPanelContent>
+        Caesars & Tallboys $5.50,<br> Cheese Nachos $10
+      </ng-template>
+    </ngb-panel>
+  </ngb-accordion>
+  <hr>
+</div> -->
